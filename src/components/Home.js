@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./Home.css";
 
 function Home() {
-  const [bgImage, setBgImage] = useState("/img2.jpg"); // Default background
+  const [bgImage, setBgImage] = useState("/img2.jpg"); 
 
-  // Change background when clicked
+ 
   const handleBackgroundChange = () => {
     const newBg = bgImage === "/img2.jpg" ? "/img.jpg" : "/img2.jpg";
     setBgImage(newBg);
@@ -12,7 +12,6 @@ function Home() {
 
   return (
     <div className="home-container">
-      {/* Background Div (Sits Behind) */}
       <div
         className="background"
         style={{ backgroundImage: `url(${bgImage})` }}
