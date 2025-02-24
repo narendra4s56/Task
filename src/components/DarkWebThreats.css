@@ -1,0 +1,26 @@
+@keyframes typingEffect2 {
+    0% { content: "D"; }
+    10% { content: "Da"; }
+    20% { content: "Dar"; }
+    30% { content: "Dark"; }
+    40% { content: "Dark W"; }
+    50% { content: "Dark We"; }
+    60% { content: "Dark Web"; }
+    70% { content: "Dark Web T"; }
+    80% { content: "Dark Web Th"; }
+    90% { content: "Dark Web Thr"; }
+    100% { content: "Dark Web Threats"; }
+  }
+  
+  .dheading::after {
+    content: "Dark Web Threats";
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    animation: typingEffect2 2.5s steps(12) infinite alternate;
+    display: inline-block;
+  }
+  .dheading:hover{
+    color: rgb(112, 2, 207);
+  }
+  

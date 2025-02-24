@@ -1,0 +1,71 @@
+.crypto-container {
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* max-width: 800px; */
+    margin:2rem 0;
+  }
+  
+  .crypto-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .crypto-table-container {
+    overflow-x: auto;
+  }
+  
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .crypto-table th, .crypto-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .crypto-table th {
+    background-color: #f9f9f9;
+  }
+  
+  .crypto-row:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .crypto-status-suspicious {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .crypto-status-normal {
+    color: green;
+    font-weight: bold;
+  }
+  @keyframes typingEffect {
+    0% { content: "C"; }
+    10% { content: "Cr"; }
+    20% { content: "Cry"; }
+    30% { content: "Cryp"; }
+    40% { content: "Crypt"; }
+    50% { content: "Crypto"; }
+    60% { content: "Crypto T"; }
+    70% { content: "Crypto Tra"; }
+    80% { content: "Crypto Trans"; }
+    90% { content: "Crypto Transat"; }
+    100% { content: "Crypto Transations"; }
+  }
+  
+  .crheading::after {
+    content: "Dark Web Threats";
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    animation: typingEffect 2.5s steps(12) infinite alternate;
+    display: inline-block;
+  }
