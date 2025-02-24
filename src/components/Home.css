@@ -1,4 +1,4 @@
-/* Wrapper for the entire section */
+
 .home-container {
   position: relative;
   display: flex;
@@ -10,7 +10,7 @@
   padding: 20px;
 }
 
-/* 🔹 Background (Stays Behind Everything) */
+
 .background {
   position: absolute;
   top: 0;
@@ -23,7 +23,7 @@
   z-index: -1; /* Ensures it's in the background */
 }
 
-/* 🔹 Title Text */
+
 .text {
   color: white;
   font-size: 3rem;
@@ -36,7 +36,7 @@
   color: #ffcc00;
 }
 
-/* 🔹 Animated Button */
+
 .animated-button {
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.7);
